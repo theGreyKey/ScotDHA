@@ -1,0 +1,44 @@
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Environment & Secrets ─────────────────────────────────────────────
+.env
+.venv/
+env/
+venv/
+
+# ── Corpus Data (user must supply their own) ──────────────────────────
+data/
+ScotLaw/
+output/
+
+# ── Pipeline Outputs (reproducible from source) ──────────────────────
+output/
+
+# ── Model Weights (downloaded at setup) ───────────────────────────────
+*.safetensors
+*.bin
+*.pt
+*.onnx
+
+# ── IDE & OS ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Jupyter ───────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Claude Code ───────────────────────────────────────────────────────
+.claude/
+CLAUDE.MD
